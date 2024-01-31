@@ -4,8 +4,10 @@ Zamyslete se nad tím, zda vámi vytvořený výraz generuje všechna čísla sk
 Vemte v úvahu, že funkce Math.random generuje náhodná čísla mezi 0 (včetně) a 1 (vyjma). Je tedy malinká pravěpodobnost, že občas padne přesně číslo 0. 
 Naopak číslo 1 padnout nemůže.*/
 
-document.body.innerHTML = "<h1>Lekce 2</h1>"
+document.innerHTML = "<h1>Lekce 2</h1>"
 document.body.innerHTML = "<h2>Hazeni kostkou</h2>"
+
+
 
 let cislo = Math.floor(Math.random() * 6) + 1
 document.body.innerHTML = cislo
